@@ -20,11 +20,11 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: [
-      "https://jangidinterior.com/sitemap.xml",
-      "https://jangidinterior.com/sitemap-hindi.xml",
-      "https://jangidinterior.com/sitemap-marathi.xml",
-      "https://jangidinterior.com/sitemap-gujarati.xml",
+      "https://jangid-interior.vercel.app/sitemap.xml",
+      "https://jangid-interior.vercel.app/sitemap-hindi.xml",
+      "https://jangid-interior.vercel.app/sitemap-marathi.xml",
+      "https://jangid-interior.vercel.app/sitemap-gujarati.xml",
     ],
-    host: "https://jangidinterior.com",
+    host: "https://jangid-interior.vercel.app",
   };
 }
