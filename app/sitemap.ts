@@ -4,7 +4,7 @@ import { projects } from '@/lib/data/projects'
 import { locations } from '@/lib/data/locations'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://jangidinterior.com'
+  const baseUrl = 'https://jangid-interior.vercel.app'
 
   // Static pages
   const staticPages = [
