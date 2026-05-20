@@ -11,20 +11,20 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "Googlebot",
         allow: "/",
-        crawlDelay: 0,
+        // crawlDelay: 0,
       },
       {
         userAgent: "bingbot",
         allow: "/",
-        crawlDelay: 1,
+        // crawlDelay: 1,
       },
     ],
     sitemap: [
       "https://jangid-interior.vercel.app/sitemap.xml",
-      "https://jangid-interior.vercel.app/sitemap-hindi.xml",
-      "https://jangid-interior.vercel.app/sitemap-marathi.xml",
-      "https://jangid-interior.vercel.app/sitemap-gujarati.xml",
+      // "https://jangid-interior.vercel.app/sitemap-hindi.xml",
+      // "https://jangid-interior.vercel.app/sitemap-marathi.xml",
+      // "https://jangid-interior.vercel.app/sitemap-gujarati.xml",
     ],
-    host: "https://jangid-interior.vercel.app",
+    // host: "https://jangid-interior.vercel.app",
   };
 }
