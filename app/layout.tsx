@@ -25,13 +25,19 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jangidinterior.com'),
+  metadataBase: new URL('https://jangid-interior.vercel.app'),
+
+  applicationName: 'Jangid Interior',
+
   title: {
-    default: 'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+    default:
+      'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
     template: '%s | Jangid Interior',
   },
+
   description:
     'Transform your home with Jangid Interior — premium interior design services: modular kitchen, bedroom, living room, office & turnkey renovation across Mumbai, Pune & Ahmedabad. 15+ years | 500+ projects. Free consultation.',
+
   keywords: [
     'interior designer in Mumbai',
     'interior designer in Pune',
@@ -53,53 +59,64 @@ export const metadata: Metadata = {
     'interior designer near me',
     '2bhk interior design',
     '3bhk interior design',
-    // Hindi keywords
+
+    // Hindi
     'घर का डिज़ाइन',
     'इंटीरियर डिजाइनर',
     'रसोई का डिज़ाइन',
     'घर की सजावट',
-    'मुंबई में डिजाइनर',
-    'पुणे में इंटीरियर',
-    'अहमदाबाद में इंटीरियर',
-    // Marathi keywords
-    'घरांचा डिজाइन',
+
+    // Marathi
+    'घरांचा डिझाइन',
     'इंटीरियर डिजाइनर',
-    'रसोईचा डिजाइन',
-    'घराचे सजावट',
-    'मुंबई इंटीरियर',
-    'पुणे घर सजावट',
-    // Gujarati keywords
+    'घर सजावट',
+
+    // Gujarati
     'ઘરની ડિઝાઇન',
-    'ઇન્ટીરિયર ડિજાઇનર',
-    'રસોઇની ડિઝાઇન',
+    'ઇન્ટીરિયર ડિઝાઇનર',
     'ઘર સજાવટ',
-    'અમદાવાદ ઇંટેરિયર',
   ],
+
   authors: [{ name: 'Jangid Interior' }],
+
   creator: 'Jangid Interior',
+
   publisher: 'Jangid Interior',
+
+  manifest: '/site.webmanifest',
+
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
+
   alternates: {
-    canonical: '/',
+    canonical: 'https://jangid-interior.vercel.app',
+
     languages: {
-      en: 'https://jangidinterior.com',
-      'hi-IN': 'https://jangidinterior.com/hi',
-      'mr-IN': 'https://jangidinterior.com/mr',
-      'gu-IN': 'https://jangidinterior.com/gu',
+      en: 'https://jangid-interior.vercel.app',
+      'hi-IN': 'https://jangid-interior.vercel.app/hi',
+      'mr-IN': 'https://jangid-interior.vercel.app/mr',
+      'gu-IN': 'https://jangid-interior.vercel.app/gu',
     },
   },
+
   openGraph: {
-    title: 'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+    title:
+      'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+
     description:
-      'Transform your home with Jangid Interior — premium interior design services: modular kitchen, bedroom, living room, office & turnkey renovation across Mumbai, Pune & Ahmedabad. 15+ years | 500+ projects. Free consultation.',
-    url: 'https://jangidinterior.com',
+      'Transform your home with Jangid Interior — premium interior design services across Mumbai, Pune & Ahmedabad.',
+
+    url: 'https://jangid-interior.vercel.app',
+
     siteName: 'Jangid Interior',
+
     locale: 'en_IN',
+
     type: 'website',
+
     images: [
       {
         url: '/og-image.jpg',
@@ -109,16 +126,23 @@ export const metadata: Metadata = {
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+
+    title:
+      'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+
     description:
-      'Transform your home with Jangid Interior — premium interior design services. 15+ years | 500+ projects. Free consultation.',
+      'Premium interior design services in Mumbai, Pune & Ahmedabad.',
+
     images: ['/og-image.jpg'],
   },
+
   robots: {
     index: true,
     follow: true,
+
     googleBot: {
       index: true,
       follow: true,
@@ -127,12 +151,25 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+
   icons: {
     icon: [
-      { url: '/icon.svg', type: 'image/svg+xml' },
-      { url: '/icon-light-32x32.png', sizes: '32x32', type: 'image/png' },
+      {
+        url: '/favicon.ico',
+      },
+      {
+        url: '/icon.svg',
+        type: 'image/svg+xml',
+      },
+      {
+        url: '/icon-light-32x32.png',
+        sizes: '32x32',
+        type: 'image/png',
+      },
     ],
-    shortcut: '/icon-light-32x32.png',
+
+    shortcut: '/favicon.ico',
+
     apple: '/apple-icon.png',
   },
 }
@@ -143,20 +180,36 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${cormorant.variable} bg-background`}>
+    <html
+      lang="en"
+      className={`${dmSans.variable} ${cormorant.variable} bg-background`}
+    >
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
+
               '@type': 'LocalBusiness',
+
               name: 'Jangid Interior',
+
+              image:
+                'https://jangid-interior.vercel.app/og-image.jpg',
+
+              logo:
+                'https://jangid-interior.vercel.app/logo.png',
+
               description:
-                'Premium interior design company offering modular kitchen, bedroom, living room, office interiors and turnkey renovation services across Mumbai, Pune & Ahmedabad. सर्वोत्तम घर सजावट सेवा। ઇન્ટીરિયર ડિજાઇનિંગ સેવા। घराचे सजावट सेवा।',
-              url: 'https://jangidinterior.com',
+                'Premium interior design company offering modular kitchen, bedroom, living room, office interiors and turnkey renovation services across Mumbai, Pune & Ahmedabad.',
+
+              url: 'https://jangid-interior.vercel.app',
+
               telephone: '+91-89051-87368',
+
               email: 'mahendra.jangid.official@gmail.com',
+
               address: [
                 {
                   '@type': 'PostalAddress',
@@ -177,14 +230,19 @@ export default function RootLayout({
                   addressCountry: 'IN',
                 },
               ],
+
               areaServed: ['Mumbai', 'Pune', 'Ahmedabad'],
+
               priceRange: '₹₹₹',
+
               openingHours: 'Mo-Sa 09:00-19:00',
+
               sameAs: [
                 'https://www.instagram.com/jangidinterior',
                 'https://www.facebook.com/jangidinterior',
                 'https://twitter.com/jangidinterior',
               ],
+
               aggregateRating: {
                 '@type': 'AggregateRating',
                 ratingValue: '4.9',
@@ -194,10 +252,14 @@ export default function RootLayout({
           }}
         />
       </head>
+
       <body className="font-sans antialiased">
         <Header />
+
         {children}
+
         <Footer />
+
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
