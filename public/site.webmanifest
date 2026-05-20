@@ -1,0 +1,15 @@
+{
+  "name": "Jangid Interior",
+  "short_name": "Jangid Interior",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#C9A66B",
+  "icons": [
+    {
+      "src": "/icon-light-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
