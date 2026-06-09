@@ -148,7 +148,7 @@ export function Logo({ light = false, className = '', variant = 'arch' }: LogoPr
           letterSpacing: '0.03em',
         }}
       >
-        Jangid Interior
+        SK Interior
       </span>
     </div>
   )
