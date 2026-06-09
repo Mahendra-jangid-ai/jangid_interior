@@ -1,6 +1,4 @@
 import { Metadata } from 'next'
-import Header from '@/components/header'
-import Footer from '@/components/footer'
 import CTASection from '@/components/sections/cta-section'
 import GalleryContent from './gallery-content'
 
@@ -25,12 +23,10 @@ export const metadata: Metadata = {
 export default function GalleryPage() {
   return (
     <div className="min-h-screen">
-      <Header />
       <main>
         <GalleryContent />
         <CTASection />
       </main>
-      <Footer />
     </div>
   )
 }
