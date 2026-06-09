@@ -15,8 +15,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 89051 87368',
-    href: 'tel:+918905187368',
+    value: '+91 75684 91519',
+    href: 'tel:+917568491519',
     description: 'Mon-Sat, 10AM to 7PM',
   },
   {
@@ -29,8 +29,8 @@ const contactInfo = [
   {
     icon: MessageSquare,
     label: 'WhatsApp',
-    value: '+91 89051 87368',
-    href: 'https://wa.me/918905187368',
+    value: '+91 75684 91519',
+    href: 'https://wa.me/917568491519',
     description: 'Quick response guaranteed',
   },
   {
@@ -201,7 +201,7 @@ export default function ContactContent() {
                       <Input
                         id="phone"
                         type="tel"
-                        placeholder="+91 89051 87368"
+                        placeholder="+91 75684 91519"
                         value={formState.phone}
                         onChange={(e) => {
                           const value = e.target.value.replace(/\D/g, '')
@@ -314,8 +314,8 @@ export default function ContactContent() {
             >
               <SectionHeading
                 badge="Visit Us"
-                title="Our Offices"
-                description="Visit any of our offices in Mumbai, Pune or Ahmedabad for a personalized consultation."
+                title="Our Office"
+                description="Visit our office in Mumbai for a personalized consultation."
               />
 
               <div className="mt-8 space-y-4">
@@ -396,14 +396,14 @@ export default function ContactContent() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="tel:+918905187368"
+                href="tel:+917568491519"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-background text-foreground font-semibold rounded-lg hover:bg-background/90 transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +91 89051 87368
+                +91 75684 91519
               </a>
               <a
-                href="https://wa.me/918905187368"
+                href="https://wa.me/917568491519"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 border-2 border-primary-foreground/30 text-primary-foreground font-semibold rounded-lg hover:bg-primary-foreground/10 transition-colors"

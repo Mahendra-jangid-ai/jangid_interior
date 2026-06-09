@@ -19,13 +19,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!project) {
     return {
-      title: 'Project Not Found | Jangid Interior',
+      title: 'Project Not Found | SK Interior',
     }
   }
 
   return {
-    title: `${project.title} | Jangid Interior - Interior Design Portfolio`,
-    description: `${project.description} View this stunning ${project.category.toLowerCase()} interior design project by Jangid Interior in ${project.location}.`,
+    title: `${project.title} | SK Interior - Interior Design Portfolio`,
+    description: `${project.description} View this stunning ${project.category.toLowerCase()} interior design project by SK Interior in ${project.location}.`,
     keywords: [
       project.title.toLowerCase(),
       `${project.category.toLowerCase()} interior design`,
@@ -33,11 +33,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ...project.tags.map(t => t.toLowerCase()),
     ],
     openGraph: {
-      title: `${project.title} | Jangid Interior`,
+      title: `${project.title} | SK Interior`,
       description: project.description,
       type: 'article',
       locale: 'en_IN',
-      siteName: 'Jangid Interior',
+      siteName: 'SK Interior',
       images: [
         {
           url: project.image,
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ],
     },
     alternates: {
-      canonical: `https://jangidinterior.com/projects/${slug}`,
+      canonical: `https://skinterior.com/projects/${slug}`,
     },
   }
 }

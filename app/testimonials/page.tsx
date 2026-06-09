@@ -7,16 +7,16 @@ import TestimonialsContent from './testimonials-content'
 export const metadata: Metadata = {
   title: 'Client Reviews & Testimonials',
   description:
-    'Read reviews from 2,000+ happy clients who chose Jangid Interior for their home and office interiors across Mumbai, Pune, and Ahmedabad. Rated 4.9/5 for design quality and service.',
+    'Read reviews from 2,000+ happy clients who chose SK Interior for their home and office interiors in Mumbai. Rated 4.9/5 for design quality and service.',
   keywords:
-    'interior design reviews, Jangid Interior testimonials, interior designer reviews Mumbai, best interior company reviews, client testimonials',
+    'interior design reviews, SK Interior testimonials, interior designer reviews Mumbai, best interior company reviews, client testimonials',
   alternates: {
     canonical: '/testimonials',
   },
   openGraph: {
-    title: 'Client Reviews & Testimonials | Jangid Interior',
+    title: 'Client Reviews & Testimonials | SK Interior',
     description:
-      'Read reviews from 2,000+ happy clients who chose Jangid Interior for their interiors.',
+      'Read reviews from 2,000+ happy clients who chose SK Interior for their interiors.',
     url: '/testimonials',
     type: 'website',
   },

@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
     <section className="py-20 md:py-28 bg-background" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          label="Why Jangid Interior"
+          label="Why SK Interior"
           title={'The Standard We Hold\nOurselves To'}
           subtitle="We do not just design beautiful spaces — we deliver on every promise that comes with them."
           centered

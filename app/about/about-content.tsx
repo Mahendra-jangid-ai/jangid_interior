@@ -87,7 +87,7 @@ export default function AboutContent() {
               <div className="aspect-[4/5] overflow-hidden rounded-xl relative">
                 <Image
                   src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80"
-                  alt="Jangid Interior — premium interior design studio Mumbai"
+                  alt="SK Interior — premium interior design studio Mumbai"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -108,13 +108,12 @@ export default function AboutContent() {
               <div className="h-px w-12 bg-primary mb-6" />
               <div className="space-y-5 text-muted-foreground font-sans text-base leading-relaxed">
                 <p>
-                  Jangid Interior began in 2009 with a single studio in Mumbai and a clear vision:
+                  SK Interior began in 2009 with a single studio in Mumbai and a clear vision:
                   to create interior spaces that would stand the test of time — both in design and
                   construction.
                 </p>
                 <p>
-                  Over 15 years, we have grown to serve 2000+ happy clients across Mumbai, Ahmedabad,
-                  and Pune with our talented team of designers, architects, and craftspeople. Our portfolio now
+                  Over 15 years, we have grown to serve 2000+ happy clients across Mumbai with our talented team of designers, architects, and craftspeople. Our portfolio now
                   includes over 500 completed projects across homes, offices, and commercial spaces.
                 </p>
                 <p>

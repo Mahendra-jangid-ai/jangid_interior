@@ -116,11 +116,11 @@ export default function EnquiryContent() {
             </p>
             <div className="bg-muted/50 rounded-xl p-6 mb-8">
               <p className="text-sm text-muted-foreground mb-2">Your Reference Number</p>
-              <p className="font-mono text-2xl font-bold text-primary">JI-{Date.now().toString().slice(-6)}</p>
+              <p className="font-mono text-2xl font-bold text-primary">SK-{Date.now().toString().slice(-6)}</p>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="tel:+918905187368"
+                href="tel:+917568491519"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-colors"
               >
                 <Phone className="w-4 h-4" />
@@ -381,7 +381,7 @@ export default function EnquiryContent() {
                       <Input
                         id="phone"
                         type="tel"
-                        placeholder="+91 89051 87368"
+                        placeholder="+91 75684 91519"
                         value={formData.phone}
                         onChange={(e) => {
                           const value = e.target.value.replace(/\D/g, '')

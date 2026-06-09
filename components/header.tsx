@@ -66,7 +66,7 @@ export default function Header() {
                 )}
                 style={{ letterSpacing: '0.03em' }}
               >
-                Jangid Interior
+                SK Interior
               </span>
             </Link>
 
@@ -99,7 +99,7 @@ export default function Header() {
             {/* Right Section */}
             <div className="flex items-center gap-3">
               <a
-                href="tel:+918905187368"
+                href="tel:+917568491519"
                 className={cn(
                   'hidden xl:flex items-center gap-1.5 text-sm font-sans font-medium transition-colors',
                   isTransparent
@@ -108,7 +108,7 @@ export default function Header() {
                 )}
               >
                 <Phone size={14} />
-                +91 89051 87368
+                +91 75684 91519
               </a>
 
               <Link
@@ -166,7 +166,7 @@ export default function Header() {
                   >
                     <LogoMarkAlt size={28} color="hsl(43, 56%, 55%)" />
                     <span className="font-serif font-medium text-lg text-[#2c2825]">
-                      Jangid Interior
+                      SK Interior
                     </span>
                   </Link>
                   <button
@@ -222,11 +222,11 @@ export default function Header() {
                   </Link>
 
                   <a
-                    href="tel:+918905187368"
+                    href="tel:+917568491519"
                     className="flex items-center justify-center gap-2.5 py-3 text-[#6b6560] font-sans text-sm hover:text-[#2c2825] transition-colors"
                   >
                     <Phone size={16} className="text-[#c4a053]" />
-                    <span>+91 89051 87368</span>
+                    <span>+91 75684 91519</span>
                   </a>
                 </div>
               </div>

@@ -15,13 +15,13 @@ export const faqs: FAQ[] = [
     id: "custom-designs",
     question: "Do you provide fully custom designs?",
     answer:
-      "Absolutely. Every project at Jangid Interior begins with a blank page. We do not use template packages or off-the-shelf solutions. Your design is created from scratch to reflect your unique lifestyle, aesthetic preferences, and practical requirements — resulting in a space that is entirely and unmistakably yours.",
+      "Absolutely. Every project at SK Interior begins with a blank page. We do not use template packages or off-the-shelf solutions. Your design is created from scratch to reflect your unique lifestyle, aesthetic preferences, and practical requirements — resulting in a space that is entirely and unmistakably yours.",
   },
   {
     id: "locations",
     question: "Which cities and areas do you serve?",
     answer:
-      "We currently serve three major cities: Mumbai (including Andheri, Bandra, Borivali, Goregaon, Malad, Powai, Dadar, and Lower Parel), Ahmedabad (including Navrangpura, Bopal, Satellite, SG Highway, Maninagar, Thaltej, and Vastrapur), and Pune (including Baner, Wakad, Hinjewadi, Kothrud, Hadapsar, Viman Nagar, and Aundh). We are actively expanding to new cities — contact us to discuss your project even if your location is not listed.",
+      "We currently serve Mumbai and its surrounding suburbs, including Andheri, Bandra, Borivali, Goregaon, Malad, Powai, Dadar, Lower Parel, Juhu, and Worli. Contact us to discuss your project details and check if we serve your specific neighborhood.",
   },
   {
     id: "timeline",

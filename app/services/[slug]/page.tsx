@@ -19,28 +19,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!service) {
     return {
-      title: 'Service Not Found | Jangid Interior',
+      title: 'Service Not Found | SK Interior',
     }
   }
 
   return {
-    title: `${service.title} | Jangid Interior - Best Interior Designer in Jaipur`,
-    description: `${service.fullDesc} Get premium ${service.title.toLowerCase()} services in Jaipur, Jodhpur, Udaipur. Free consultation available.`,
+    title: `${service.title} | SK Interior - Best Interior Designer in Mumbai`,
+    description: `${service.fullDesc} Get premium ${service.title.toLowerCase()} services in Mumbai. Free consultation available.`,
     keywords: [
       service.title.toLowerCase(),
-      `${service.title.toLowerCase()} Jaipur`,
+      `${service.title.toLowerCase()} Mumbai`,
       `best ${service.title.toLowerCase()}`,
-      'interior designer Rajasthan',
+      'interior designer Mumbai',
     ],
     openGraph: {
-      title: `${service.title} | Jangid Interior`,
+      title: `${service.title} | SK Interior`,
       description: service.fullDesc,
       type: 'website',
       locale: 'en_IN',
-      siteName: 'Jangid Interior',
+      siteName: 'SK Interior',
     },
     alternates: {
-      canonical: `https://jangidinterior.com/services/${slug}`,
+      canonical: `https://skinterior.com/services/${slug}`,
     },
   }
 }

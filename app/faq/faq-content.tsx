@@ -179,7 +179,7 @@ export default function FAQContent() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
               <a
-                href="tel:+918905187368"
+                href="tel:+917568491519"
                 className="flex items-center gap-4 p-6 bg-muted/50 rounded-2xl hover:bg-muted transition-colors group"
               >
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
@@ -188,12 +188,12 @@ export default function FAQContent() {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
                   <p className="text-sm text-muted-foreground">Mon-Sat, 10AM to 7PM</p>
-                  <p className="text-primary font-medium mt-1">+91 89051 87368</p>
+                  <p className="text-primary font-medium mt-1">+91 75684 91519</p>
                 </div>
               </a>
 
               <a
-                href="https://wa.me/918905187368"
+                href="https://wa.me/917568491519"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-6 bg-muted/50 rounded-2xl hover:bg-muted transition-colors group"
@@ -235,7 +235,7 @@ export default function FAQContent() {
             {[
               { title: 'Our Services', description: 'Explore our complete range of interior design services', href: '/services' },
               { title: 'View Projects', description: 'See our completed interior design projects', href: '/projects' },
-              { title: 'About Us', description: 'Learn more about Jangid Interior and our team', href: '/about' },
+              { title: 'About Us', description: 'Learn more about SK Interior and our team', href: '/about' },
             ].map((link) => (
               <Link
                 key={link.title}

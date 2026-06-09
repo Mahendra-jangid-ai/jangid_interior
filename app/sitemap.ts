@@ -4,7 +4,7 @@ import { projects } from '@/lib/data/projects'
 import { locations } from '@/lib/data/locations'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://jangid-interior.vercel.app'
+  const baseUrl = 'https://sk-interior.vercel.app'
 
   // Static pages
   const staticPages = [
@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'weekly' : 'monthly' as const,
+    changeFrequency: (route === '' ? 'weekly' : 'monthly') as 'weekly' | 'monthly',
     priority: route === '' ? 1 : route === '/services' || route === '/projects' ? 0.9 : 0.8,
   }))
 

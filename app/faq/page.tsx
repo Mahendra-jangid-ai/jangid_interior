@@ -2,24 +2,24 @@ import type { Metadata } from 'next'
 import FAQContent from './faq-content'
 
 export const metadata: Metadata = {
-  title: 'FAQs | Jangid Interior - Frequently Asked Questions About Interior Design',
-  description: 'Get answers to commonly asked questions about interior design services, pricing, timelines, and process. Learn everything about Jangid Interior services.',
+  title: 'FAQs | SK Interior - Frequently Asked Questions About Interior Design',
+  description: 'Get answers to commonly asked questions about interior design services, pricing, timelines, and process. Learn everything about SK Interior services.',
   keywords: [
     'interior design FAQ',
     'interior design questions',
     'modular kitchen FAQ',
     'home interior cost questions',
-    'interior designer Jaipur FAQ',
+    'interior designer Mumbai FAQ',
   ],
   openGraph: {
-    title: 'FAQs | Jangid Interior',
+    title: 'FAQs | SK Interior',
     description: 'Get answers to commonly asked questions about interior design services.',
     type: 'website',
     locale: 'en_IN',
-    siteName: 'Jangid Interior',
+    siteName: 'SK Interior',
   },
   alternates: {
-    canonical: 'https://jangidinterior.com/faq',
+    canonical: 'https://skinterior.com/faq',
   },
 }
 

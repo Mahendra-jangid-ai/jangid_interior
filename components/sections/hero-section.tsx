@@ -13,7 +13,7 @@ const fadeUp = {
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.7, ease: 'easeOut', delay },
+    transition: { duration: 0.7, ease: 'easeOut' as const, delay },
   }),
 }
 
@@ -23,7 +23,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src={HERO_IMAGE}
-          alt="Luxury interior by Jangid Interior"
+          alt="Luxury interior by SK Interior"
           fill
           priority
           className="object-cover object-center"
@@ -42,7 +42,7 @@ export default function HeroSection() {
             custom={0.1}
             className="text-primary text-xs font-sans font-semibold tracking-[0.25em] uppercase mb-6"
           >
-            Premium Interior Design — Mumbai · Ahmedabad · Pune
+            Premium Interior Design — Mumbai
           </motion.p>
 
           <motion.h1

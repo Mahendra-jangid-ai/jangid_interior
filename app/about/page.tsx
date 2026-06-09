@@ -5,18 +5,18 @@ import CTASection from '@/components/sections/cta-section'
 import AboutContent from './about-content'
 
 export const metadata: Metadata = {
-  title: 'About Jangid Interior — 15 Years of Premium Interior Design',
+  title: 'About SK Interior — 15 Years of Premium Interior Design',
   description:
-    'Founded in 2009, Jangid Interior has delivered 500+ projects across Mumbai, Pune and Ahmedabad. Learn about our design philosophy, mission, and the passionate team behind every transformation.',
+    'Founded in 2009, SK Interior has delivered 500+ projects in Mumbai. Learn about our design philosophy, mission, and the passionate team behind every transformation.',
   keywords:
-    'about Jangid Interior, interior design company India, premium interior design studio, luxury home interiors, best interior designer Mumbai',
+    'about SK Interior, interior design company India, premium interior design studio, luxury home interiors, best interior designer Mumbai',
   alternates: {
     canonical: '/about',
   },
   openGraph: {
-    title: 'About Jangid Interior — 15 Years of Premium Interior Design',
+    title: 'About SK Interior — 15 Years of Premium Interior Design',
     description:
-      'Founded in 2009, Jangid Interior has delivered 500+ projects across Mumbai, Pune and Ahmedabad.',
+      'Founded in 2009, SK Interior has delivered 500+ projects in Mumbai.',
     url: '/about',
     type: 'website',
   },

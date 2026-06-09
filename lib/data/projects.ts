@@ -24,7 +24,7 @@ export const projects: Project[] = [
     id: 'modular-kitchen',
     title: 'Modular Kitchen Makeover',
     category: 'Kitchen',
-    location: 'Bopal, Ahmedabad',
+    location: 'Malad, Mumbai',
     description:
       'A sleek, high-gloss modular kitchen with integrated appliances, quartz countertops, and an island that doubles as a breakfast bar.',
     image:
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     id: 'master-bedroom',
     title: 'Master Bedroom Retreat',
     category: 'Bedroom',
-    location: 'Baner, Pune',
+    location: 'Juhu, Mumbai',
     description:
       'A tranquil master suite with custom headboard, walk-in wardrobe, and layered lighting designed for rest and restoration.',
     image:
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     id: 'complete-home',
     title: 'Complete Home Interior',
     category: 'Residential',
-    location: 'Satellite, Ahmedabad',
+    location: 'Worli, Mumbai',
     description:
       'Full 3BHK home interior from living room to study — unified by a warm neutral palette, custom furniture, and premium textures throughout.',
     image:
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     id: 'tv-unit',
     title: 'Minimal TV Unit Design',
     category: 'Living Room',
-    location: 'Wakad, Pune',
+    location: 'Dadar, Mumbai',
     description:
       'A floor-to-ceiling media wall with integrated shelving, LED backlight, and fluted panel detailing that anchors the entire living space.',
     image:
@@ -90,7 +90,7 @@ export const projects: Project[] = [
     id: 'dining-area',
     title: 'Dining Area Design',
     category: 'Dining',
-    location: 'Thaltej, Ahmedabad',
+    location: 'Goregaon, Mumbai',
     description:
       'A formal dining room where a handcrafted table for eight is anchored by a statement chandelier and a dramatic fluted marble sideboard.',
     image:
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     id: 'commercial-workspace',
     title: 'Commercial Workspace',
     category: 'Commercial',
-    location: 'SG Highway, Ahmedabad',
+    location: 'Bandra, Mumbai',
     description:
       'A boutique co-working space designed for community and focus — biophilic elements, warm materials, and flexible zones that work for everyone.',
     image:

@@ -11,7 +11,7 @@ const stats = [
     desc: 'Across residential and commercial spaces',
   },
   { value: '2,000+', label: 'Happy Clients', desc: 'Families and businesses who trust us' },
-  { value: '3', label: 'Cities Served', desc: 'Mumbai, Ahmedabad and Pune' },
+  { value: '1', label: 'City Served', desc: 'Exclusively serving Mumbai & Suburbs' },
 ]
 
 export default function StatsSection() {

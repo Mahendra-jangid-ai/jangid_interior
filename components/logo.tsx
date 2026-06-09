@@ -139,7 +139,7 @@ export function Logo({ light = false, className = '', variant = 'arch' }: LogoPr
   const Mark = variant === 'chandelier' ? LogoMark : LogoMarkAlt
 
   return (
-    <div className={`flex items-center gap-2.5 ${className}`} aria-label="Jangid Interior — Home">
+    <div className={`flex items-center gap-2.5 ${className}`} aria-label="SK Interior — Home">
       <Mark size={34} color={markColor} />
       <span
         className="font-serif font-medium tracking-wide leading-none text-[1.15rem] md:text-[1.2rem]"

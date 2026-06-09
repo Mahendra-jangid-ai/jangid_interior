@@ -64,7 +64,7 @@ export default function CTASection() {
             </span>
           </Link>
           <a
-            href="tel:+918905187368"
+            href="tel:+917568491519"
             className="inline-flex items-center gap-2 px-8 py-4 border border-white/25 text-white font-sans font-medium text-sm rounded hover:border-white/60 hover:bg-white/5 transition-all duration-300"
           >
             <Phone size={15} />

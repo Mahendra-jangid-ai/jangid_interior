@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Jangid Interior - Luxury warm palette */
+  /* SK Interior - Luxury warm palette */
   --background: oklch(0.975 0.005 85); /* Warm off-white */
   --foreground: oklch(0.18 0.02 65); /* Dark warm brown */
   --card: oklch(1 0 0); /* Pure white */

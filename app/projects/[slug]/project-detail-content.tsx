@@ -184,7 +184,7 @@ export default function ProjectDetailContent({ project }: Props) {
                       <ArrowRight className="w-4 h-4" />
                     </Button>
                   </Link>
-                  <a href="tel:+918905187368" className="block">
+                  <a href="tel:+917568491519" className="block">
                     <Button variant="outline" className="w-full gap-2">
                       <Phone className="w-4 h-4" />
                       Discuss Project

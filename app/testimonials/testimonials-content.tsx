@@ -42,7 +42,7 @@ export default function TestimonialsContent() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="mt-6 text-white/70 font-sans text-lg leading-relaxed max-w-2xl"
           >
-            Over 2,000 families and businesses have trusted Jangid Interior to transform their
+            Over 2,000 families and businesses have trusted SK Interior to transform their
             spaces. Here is what some of them have to say.
           </motion.p>
         </div>

@@ -13,24 +13,23 @@ import FAQSection from '@/components/sections/faq-section'
 import CTASection from '@/components/sections/cta-section'
 
 export const metadata: Metadata = {
-  title: 'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+  title: 'SK Interior | Best Interior Designer in Mumbai',
   description:
-    'Transform your home with Jangid Interior — premium interior design services: modular kitchen, bedroom, living room, office & turnkey renovation across Mumbai, Pune & Ahmedabad. 15+ years | 500+ projects. Free consultation.',
+    'Transform your home with SK Interior — premium interior design services: modular kitchen, bedroom, living room, office & turnkey renovation in Mumbai. 15+ years | 500+ projects. Free consultation.',
   keywords:
-    'interior designer in Mumbai, interior designer in Pune, interior designer in Ahmedabad, home interior design, modular kitchen design, luxury interiors, premium interior designer, best interior designer Mumbai, interior design company, residential interior, commercial interior. घर का डिज़ाइन, इंटीरियर डिजाइनर मुंबई, रसोई का डिज़ाइन, घर की सजावट, इंटीरियर सेवा। घरांचा डिजाइन, घराचे सजावट, मुंबई इंटीरियर, पुणे घर डिजाइन। ઘરની ડિઝાઇન, ઇન્ટીરિયર ડિજાઇનર, રસોઇની ડિઝાઇન, ઘર સજાવટ, અમદાવાદ ઇંટેરિયર।',
+    'interior designer in Mumbai, home interior design, modular kitchen design, luxury interiors, premium interior designer, best interior designer Mumbai, interior design company, residential interior, commercial interior. घर का डिज़ाइन, इंटीरियर डिजाइनर मुंबई, रसोई का डिज़ाइन, घर की सजावट, इंटीरियर सेवा। घरांचा डिजाइन, घराचे सजावट, मुंबई इंटीरियर।',
   alternates: {
     canonical: '/',
     languages: {
-      en: 'https://jangidinterior.com',
-      'hi-IN': 'https://jangidinterior.com/hi',
-      'mr-IN': 'https://jangidinterior.com/mr',
-      'gu-IN': 'https://jangidinterior.com/gu',
+      en: 'https://skinterior.com',
+      'hi-IN': 'https://skinterior.com/hi',
+      'mr-IN': 'https://skinterior.com/mr',
     },
   },
   openGraph: {
-    title: 'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+    title: 'SK Interior | Best Interior Designer in Mumbai',
     description:
-      'Transform your home with Jangid Interior — premium interior design services. 15+ years | 500+ projects. Free consultation.',
+      'Transform your home with SK Interior — premium interior design services. 15+ years | 500+ projects. Free consultation.',
     url: '/',
     type: 'website',
   },

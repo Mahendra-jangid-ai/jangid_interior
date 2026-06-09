@@ -25,23 +25,21 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jangid-interior.vercel.app'),
+  metadataBase: new URL('https://sk-interior.vercel.app'),
 
-  applicationName: 'Jangid Interior',
+  applicationName: 'SK Interior',
 
   title: {
     default:
-      'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
-    template: '%s | Jangid Interior',
+      'SK Interior | Best Interior Designer in Mumbai',
+    template: '%s | SK Interior',
   },
 
   description:
-    'Transform your home with Jangid Interior — premium interior design services: modular kitchen, bedroom, living room, office & turnkey renovation across Mumbai, Pune & Ahmedabad. 15+ years | 500+ projects. Free consultation.',
+    'Transform your home with SK Interior — premium interior design services: modular kitchen, bedroom, living room, office & turnkey renovation in Mumbai. 15+ years | 500+ projects. Free consultation.',
 
   keywords: [
     'interior designer in Mumbai',
-    'interior designer in Pune',
-    'interior designer in Ahmedabad',
     'home interior design',
     'modular kitchen',
     'bedroom interior',
@@ -77,11 +75,11 @@ export const metadata: Metadata = {
     'ઘર સજાવટ',
   ],
 
-  authors: [{ name: 'Jangid Interior' }],
+  authors: [{ name: 'SK Interior' }],
 
-  creator: 'Jangid Interior',
+  creator: 'SK Interior',
 
-  publisher: 'Jangid Interior',
+  publisher: 'SK Interior',
 
   manifest: '/site.webmanifest',
 
@@ -92,26 +90,25 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: 'https://jangid-interior.vercel.app',
+    canonical: 'https://sk-interior.vercel.app',
 
     languages: {
-      en: 'https://jangid-interior.vercel.app',
-      'hi-IN': 'https://jangid-interior.vercel.app/hi',
-      'mr-IN': 'https://jangid-interior.vercel.app/mr',
-      'gu-IN': 'https://jangid-interior.vercel.app/gu',
+      en: 'https://sk-interior.vercel.app',
+      'hi-IN': 'https://sk-interior.vercel.app/hi',
+      'mr-IN': 'https://sk-interior.vercel.app/mr',
     },
   },
 
   openGraph: {
     title:
-      'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+      'SK Interior | Best Interior Designer in Mumbai',
 
     description:
-      'Transform your home with Jangid Interior — premium interior design services across Mumbai, Pune & Ahmedabad.',
+      'Transform your home with SK Interior — premium interior design services in Mumbai.',
 
-    url: 'https://jangid-interior.vercel.app',
+    url: 'https://sk-interior.vercel.app',
 
-    siteName: 'Jangid Interior',
+    siteName: 'SK Interior',
 
     locale: 'en_IN',
 
@@ -122,7 +119,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Jangid Interior - Premium Interior Design',
+        alt: 'SK Interior - Premium Interior Design',
       },
     ],
   },
@@ -131,10 +128,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
 
     title:
-      'Jangid Interior | Best Interior Designer in Mumbai, Pune & Ahmedabad',
+      'SK Interior | Best Interior Designer in Mumbai',
 
     description:
-      'Premium interior design services in Mumbai, Pune & Ahmedabad.',
+      'Premium interior design services in Mumbai.',
 
     images: ['/og-image.jpg'],
   },
@@ -193,20 +190,20 @@ export default function RootLayout({
 
               '@type': 'LocalBusiness',
 
-              name: 'Jangid Interior',
+              name: 'SK Interior',
 
               image:
-                'https://jangid-interior.vercel.app/og-image.jpg',
+                'https://sk-interior.vercel.app/og-image.jpg',
 
               logo:
-                'https://jangid-interior.vercel.app/logo.png',
+                'https://sk-interior.vercel.app/logo.png',
 
               description:
-                'Premium interior design company offering modular kitchen, bedroom, living room, office interiors and turnkey renovation services across Mumbai, Pune & Ahmedabad.',
+                'Premium interior design company offering modular kitchen, bedroom, living room, office interiors and turnkey renovation services in Mumbai.',
 
-              url: 'https://jangid-interior.vercel.app',
+              url: 'https://sk-interior.vercel.app',
 
-              telephone: '+91-89051-87368',
+              telephone: '+91-75684-91519',
 
               email: 'mahendra.jangid.official@gmail.com',
 
@@ -217,30 +214,18 @@ export default function RootLayout({
                   addressRegion: 'Maharashtra',
                   addressCountry: 'IN',
                 },
-                {
-                  '@type': 'PostalAddress',
-                  addressLocality: 'Pune',
-                  addressRegion: 'Maharashtra',
-                  addressCountry: 'IN',
-                },
-                {
-                  '@type': 'PostalAddress',
-                  addressLocality: 'Ahmedabad',
-                  addressRegion: 'Gujarat',
-                  addressCountry: 'IN',
-                },
               ],
 
-              areaServed: ['Mumbai', 'Pune', 'Ahmedabad'],
+              areaServed: ['Mumbai'],
 
               priceRange: '₹₹₹',
 
               openingHours: 'Mo-Sa 09:00-19:00',
 
               sameAs: [
-                'https://www.instagram.com/jangidinterior',
-                'https://www.facebook.com/jangidinterior',
-                'https://twitter.com/jangidinterior',
+                'https://www.instagram.com/skinterior',
+                'https://www.facebook.com/skinterior',
+                'https://twitter.com/skinterior',
               ],
 
               aggregateRating: {

@@ -44,13 +44,13 @@ export default function LocationsContent() {
             className="text-center max-w-3xl mx-auto"
           >
             <span className="inline-block px-4 py-1.5 bg-primary/10 text-primary text-sm font-medium rounded-full mb-6">
-              Mumbai | Pune | Ahmedabad
+              Mumbai
             </span>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 text-balance">
               Interior Designer Near You
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Premium interior design services across Mumbai, Pune & Ahmedabad. Find our nearest location and transform your space with Jangid Interior.
+              Premium interior design services across Mumbai. Find our location and transform your space with SK Interior.
             </p>
           </motion.div>
         </div>
@@ -60,9 +60,9 @@ export default function LocationsContent() {
       <section className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
-            badge="Our Locations"
-            title="Serving Mumbai, Pune & Ahmedabad"
-            description="Choose your city to explore our interior design services in your area"
+            badge="Our Location"
+            title="Serving Mumbai & Suburbs"
+            description="Explore our premium interior design services in Mumbai"
             center
           />
 
@@ -71,7 +71,7 @@ export default function LocationsContent() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-100px' }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16"
+            className="flex justify-center gap-6 mt-16"
           >
             {locations.map((location, index) => (
               <motion.div
@@ -173,9 +173,9 @@ export default function LocationsContent() {
             center
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div className="flex justify-center mt-12 w-full">
             {locations.map((location) => (
-              <div key={location.id} className="bg-card rounded-xl border border-border p-6">
+              <div key={location.id} className="bg-card rounded-xl border border-border p-6 max-w-2xl w-full">
                 <div className="flex items-center gap-3 mb-4">
                   <Navigation className="w-5 h-5 text-primary" />
                   <h3 className="font-serif text-xl font-semibold text-foreground">{location.city}</h3>
@@ -210,7 +210,7 @@ export default function LocationsContent() {
               <SectionHeading
                 badge="Local Expertise"
                 title="Why Local Presence Matters"
-                description="Our deep understanding of Mumbai, Pune & Ahmedabad markets allows us to create interiors that truly resonate with your lifestyle and local aesthetics."
+                description="Our deep understanding of the Mumbai market allows us to create interiors that truly resonate with your lifestyle and local aesthetics."
               />
               <div className="mt-8 space-y-4">
                 {[
@@ -246,8 +246,8 @@ export default function LocationsContent() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <div className="bg-card rounded-2xl p-6 border border-border">
-                    <div className="text-4xl font-serif font-bold text-primary mb-2">3</div>
-                    <div className="text-muted-foreground">Cities Covered</div>
+                    <div className="text-4xl font-serif font-bold text-primary mb-2">1</div>
+                    <div className="text-muted-foreground">City Covered</div>
                   </div>
                   <div className="bg-primary rounded-2xl p-6 text-primary-foreground">
                     <div className="text-4xl font-serif font-bold mb-2">500+</div>
@@ -294,7 +294,7 @@ export default function LocationsContent() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <a
-                href="tel:+918905187368"
+                href="tel:+917568491519"
                 className="inline-flex items-center gap-2 px-8 py-4 border border-border text-foreground font-semibold rounded-lg hover:bg-muted transition-colors"
               >
                 <Phone className="w-4 h-4" />

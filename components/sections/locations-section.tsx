@@ -16,19 +16,19 @@ export default function LocationsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           label="Where We Work"
-          title={"Serving Mumbai, Pune\n& Ahmedabad"}
-          subtitle="Premium interior design services available across major cities in Maharashtra and Gujarat with their surrounding localities."
+          title={"Serving Mumbai & Suburbs"}
+          subtitle="Premium interior design services available across Mumbai and surrounding localities."
           centered
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {locations.map((location, i) => (
             <motion.div
               key={location.city}
               initial={{ opacity: 0, y: 28 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 28 }}
               transition={{ duration: 0.5, delay: i * 0.12, ease: 'easeOut' }}
-              className="bg-card border border-border rounded-xl p-7 hover:border-primary/40 hover:shadow-lg transition-all duration-300"
+              className="bg-card border border-border rounded-xl p-7 hover:border-primary/40 hover:shadow-lg transition-all duration-300 max-w-md w-full"
             >
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -56,7 +56,7 @@ export default function LocationsSection() {
         <div className="mt-10 text-center">
           <Link href="/locations">
             <span className="inline-flex items-center gap-2 text-sm font-sans font-semibold text-primary hover:gap-3 transition-all cursor-pointer">
-              View All Locations & Areas <ArrowRight size={15} />
+              View Our Service Areas <ArrowRight size={15} />
             </span>
           </Link>
         </div>

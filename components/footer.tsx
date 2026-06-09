@@ -22,14 +22,10 @@ const serviceLinks = [
 
 const cityLinks = [
   { label: 'Mumbai', href: '/locations' },
-  { label: 'Ahmedabad', href: '/locations' },
-  { label: 'Pune', href: '/locations' },
 ]
 
 const footerSeoLinks = [
   'Interior Designer in Mumbai',
-  'Interior Designer in Pune',
-  'Interior Designer in Ahmedabad',
 ]
 
 export default function Footer() {
@@ -45,11 +41,11 @@ export default function Footer() {
                 className="text-white font-serif font-medium text-[1.15rem]"
                 style={{ letterSpacing: '0.03em' }}
               >
-                Jangid Interior
+                SK Interior
               </span>
             </div>
             <p className="text-white/55 text-sm font-sans leading-relaxed mb-6">
-              Premium interior design across Mumbai, Ahmedabad and Pune. 15+ years of transforming
+              Premium interior design across Mumbai. 15+ years of transforming
               spaces into personal sanctuaries.
             </p>
             <div className="flex items-center gap-2.5">
@@ -120,7 +116,7 @@ export default function Footer() {
               ))}
             </ul>
             <h4 className="font-serif text-sm font-semibold text-white/90 uppercase tracking-widest mt-8 mb-4">
-              Cities
+              Location
             </h4>
             <ul className="flex flex-wrap gap-x-4 gap-y-2">
               {cityLinks.map((link) => (
@@ -143,11 +139,11 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+918905187368" className="flex items-start gap-3 group">
+                <a href="tel:+917568491519" className="flex items-start gap-3 group">
                   <Phone size={16} className="text-primary mt-0.5 shrink-0" />
                   <div>
                     <p className="text-white/75 font-sans text-sm group-hover:text-white transition-colors">
-                      +91 89051 87368
+                      +91 75684 91519
                     </p>
                     <p className="text-white/40 font-sans text-xs">Mon–Sat, 9am–7pm</p>
                   </div>
@@ -167,7 +163,7 @@ export default function Footer() {
                 <div className="flex items-start gap-3">
                   <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
                   <div>
-                    <p className="text-white/75 font-sans text-sm">Mumbai · Ahmedabad · Pune</p>
+                    <p className="text-white/75 font-sans text-sm">Mumbai</p>
                   </div>
                 </div>
               </li>
@@ -184,7 +180,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 font-sans text-xs">
-            © {new Date().getFullYear()} Jangid Interior. All rights reserved.
+            © {new Date().getFullYear()} SK Interior. All rights reserved.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-white/30 font-sans text-xs">
             {footerSeoLinks.map((text, i) => (

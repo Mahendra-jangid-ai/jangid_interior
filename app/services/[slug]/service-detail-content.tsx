@@ -111,7 +111,7 @@ export default function ServiceDetailContent({ service }: Props) {
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                   <a
-                    href="tel:+918905187368"
+                    href="tel:+917568491519"
                     className="inline-flex items-center justify-center gap-2 px-6 py-3.5 border border-border text-foreground font-semibold rounded-lg hover:bg-muted transition-colors"
                   >
                     <Phone className="w-4 h-4" />
@@ -182,8 +182,8 @@ export default function ServiceDetailContent({ service }: Props) {
                 <div className="text-muted-foreground">Happy Clients</div>
               </div>
               <div className="bg-card rounded-2xl p-6 border border-border">
-                <div className="text-4xl font-serif font-bold text-primary mb-2">6</div>
-                <div className="text-muted-foreground">Cities Covered</div>
+                <div className="text-4xl font-serif font-bold text-primary mb-2">15+</div>
+                <div className="text-muted-foreground">Localities Served</div>
               </div>
             </motion.div>
           </div>
